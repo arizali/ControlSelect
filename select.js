@@ -2,7 +2,7 @@
     $.fn.SelectControl = function( options ) {
          var settings = $.extend({
             current: "data-current",
-            dataUrl: "extra/kategori.php",
+            dataUrl: "get.php",
             wrapper: "#option",
             append: '<option value="">Tüm Türler</option>',
 			idtitle: "id" 
